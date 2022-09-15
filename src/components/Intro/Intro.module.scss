@@ -1,0 +1,68 @@
+.intro {
+    .intro__inner {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 25px;
+    }
+
+    .intro-title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 106%;
+        color: #011116;
+
+        max-width: 570px;
+        margin-top: 78px;
+
+        span {
+            color: #3868C6;
+        }
+    }
+
+    .intro-desc {
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 136%;
+        letter-spacing: 0.005em;
+        color: #18191F;
+        opacity: 0.8;
+
+        margin-top: 35px;
+
+        span {
+            color: #3868C6;
+        }
+    }
+
+    .intro-button-block {
+        background-color: #3868C6;
+        width: 214px;
+        height: 60px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-right: 15px;
+
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 136%;
+            letter-spacing: 0.005em;
+            color: #fff;
+        }
+    }
+
+}
