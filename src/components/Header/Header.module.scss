@@ -27,6 +27,10 @@
 
                 text-decoration: none;
                 transition: 0.2s ease-in-out;
+
+                &:hover {
+                    color: #0042c5;
+                }
             }
         }
     }

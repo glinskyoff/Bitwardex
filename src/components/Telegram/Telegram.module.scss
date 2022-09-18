@@ -1,0 +1,69 @@
+.telegram {
+
+    &__inner {
+        margin: 100px auto 184px auto;
+    }
+
+    &Block {
+        background-color: #3868C6;
+        border-radius: 25px;
+    }
+
+    &Wrapper {
+        margin: 35px 30px 35px 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &Title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 106px;
+    }
+
+    &Desc {
+        color: rgba(255, 255, 255, 0.85);
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 47px;
+
+        max-width: 529px;
+    }
+
+    &ButtonBlock {
+        background-color: #fff;
+        border-radius: 8px;
+
+        width: 254px;
+        height: 60px;
+
+        display: flex;
+        justify-content: center;
+
+        margin-top: 30px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            background-color: rgb(221, 221, 221);
+        }
+    }
+
+    &Button {
+        color: #3868C6;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.005em;
+
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        margin-right: 15px;
+        cursor: pointer;
+    }
+}

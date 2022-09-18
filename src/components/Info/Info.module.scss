@@ -1,0 +1,35 @@
+.info {
+    &__inner {
+        margin: 100px 0;
+    }
+
+    &Block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:nth-child(2) {
+            margin-top: 50px;
+        }
+    }
+
+    &Title {
+        color: #101116;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 106px;
+    }
+
+    &Desc {
+        color: rgba(16, 17, 22, 0.8);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+
+        max-width: 700px;
+
+        span {
+            color: #3868C6;
+        }
+    }
+}

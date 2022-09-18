@@ -1,0 +1,114 @@
+.rate {
+    display: flex;
+    background-color: #4471CA;
+
+    &__inner {
+        margin: 100px 0;
+
+        .rateTitleMain {
+            color: #fff;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 106px;
+        }
+    
+        .rateWrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .rateBlock {
+                background-color: #fff;
+        
+                width: 370px;
+                height: 430px;
+                border-radius: 15px;
+
+                position: relative;
+                overflow: hidden;
+
+                .rateBlockWrapper {
+                    margin: 35px auto auto 20px;
+
+                    .rateRate {
+                        color: #101116;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 56px;
+                    }
+                
+                    .rateTime {
+                        color: #3868C6;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 56px;
+                    }
+
+                    .rateLi {
+                        color: #000;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+
+                        max-width: 207px;
+                    }
+
+                    .ratePrice {
+                        color: #3868C6;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 35px;
+
+                        position: absolute;
+                        bottom: 70px;
+                    }
+
+                    .rateButtonBlock {
+                        background-color: #3868C6;
+                        width: 158px;
+                        height: 45px;
+                        border-radius: 6px;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 13px;
+                        transition: 0.25s ease-in-out;
+
+                        cursor: pointer;
+
+                        position: absolute;
+                        bottom: 20px;
+
+                        &:hover {
+                            background-color: #0042c5;
+                        }
+
+                        .rateButton {
+                            color: #fff;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 35px;
+
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -70px;
+                right: -60px;
+
+                background-image: url('./images/case.png');
+                background-repeat: no-repeat;
+
+                width: 244px;
+                height: 244px;
+
+            }
+            }
+        }       
+    }
+}

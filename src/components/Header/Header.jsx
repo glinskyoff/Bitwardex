@@ -24,13 +24,15 @@ export const Header = () => {
         <div className={styles.header__inner}>
 
             <div className={styles['header-left']}>
-                <img src={logoHeader} height='37' width='213' alt="" />
+                <a href="">
+                    <img src={logoHeader} height='37' width='213' alt="" />
+                </a>
             </div>
             <div className={styles['header-right']}>
 
                 <ul className={styles.nav}>
                     {header_li.map((item, index) => (
-                        <li key={`header_li item ${index}`}><a href="{item.link}">{item.title}</a></li>
+                        <li><a href="{item.link}">{item.title}</a></li>
                     ))}
                 </ul>
                 

@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    background-color: #4471CA;
+
+    &__inner {
+        margin: 50px 0;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &Block {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+
+    &Title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+
+        margin-bottom: 20px;
+    }
+
+    &Desc {
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+
+        margin-top: 15px;
+    }
+
+    &Social {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &SocialTitle {
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
